@@ -1,0 +1,274 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+{
+    font-size: 45px;
+    float: left
+}
+
+[class*=entypo-]:before {
+    font-family: entypo, sans-serif
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #2F343A
+}
+
+
+/*top section*/
+
+.clear-fix {
+    overflow: auto;
+}
+
+.sideTitle{
+    margin-left: 40px;
+}
+
+h1 span,
+h2 span,
+h3 span,
+#sideSocial li span {
+    padding-right: 10px;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+    padding: 0 5%;
+    margin-bottom: 10%;
+}
+
+.education-entry {
+    margin-bottom: 20px;
+}
+
+.date-text {
+    color: #999;
+    line-height: 16px;
+}
+
+.location-text {
+    color: #999;
+    line-height: 16px;
+}
+
+.welcome-message {
+    padding-top: 25px;
+    min-height: 165px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+ #personalpic{
+  margin-top: 10px
+}
+
+#lets-connect {
+    text-align: center;
+}
+
+#map {
+    display: block;
+    height: 100%;
+    margin: 0 5%;
+}
+
+#mapDiv {
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+
+/*- ---------------------------------------------------- - */
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons > li {
+    font-size: 2em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons > li a {
+    color: #FFFFFF;
+}
+
+.flex-item span {
+    min-width: 52px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+
+/*--------------------------------*/
+
+#myContacts,
+#myskills,
+#sideSocial {
+    margin-left: 15px;
+}
+
+#sideSocial ul {
+    margin-left: 0px;
+}
+
+#sideSocial li a {
+    color: #333;
+}
+
+footer {
+    background: #253340;
+    width: 100%;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 70px;
+}
+
+.social ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social li {
+    font-size: 2em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    display: inline;
+    margin-right: 5px;
+}
+
+.social li a {
+    color: #FFFFFF;
+}
+
+footer .personal-contact a {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+.leftColTop {
+    background-color: #f5f5f5;
+}
+
+.waypoint {
+    /*margin: 100vh 0;*/
+    padding: 1em 0;
+    padding-left: 10px;
+    /*background-color: #f5f5f5;*/
+}
+.dipper {
+    display: block;
+    /*width: 500px;*/
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all 600ms ease-in; /* Safari */
+    transition: all 600ms ease-in;
+}
+
+.js-dipper-animate {
+    opacity: 1;
+    -webkit-animation: dipper-jiggle 450ms linear; /* Safari 4+ */
+    -moz-animation:    dipper-jiggle 450ms linear; /* Fx 5+ */
+    -o-animation:      dipper-jiggle 450ms linear; /* Opera 12+ */
+    animation:         dipper-jiggle 450ms linear; /* IE 10+, Fx 29+ */
+}
+
+
+
+/* Media queries to handle various device widths */
+
+@media (max-width:767px) {
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+    ul.intro-social-buttons > li {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #myContacts,
+    #myskills,
+    #sideSocial {
+        display: block;
+        width: 225px;
+    }
+    .welcome-message {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mainCol [class*="col-"] {
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+    .mainCol {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    #personalpic img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #personalpic img {
+        width: 175px;
+    }
+    #myContacts ul,
+    #myskills,
+    #sideSocial {
+        /* width: 220px;*/
+    }
+}
+
+@media screen and (min-width: 479px) and (max-width: 749px) {
+    #personalpic img {
+        border: solid 1px;
+    }
+    #myContacts,
+    #myskills,
+    #sideSocial {
+        width: 202px;
+        margin-left: auto;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 635px) {
+  #sideSocial {
+    display: none;
+   /* margin-left: 0px;*/
+
+}

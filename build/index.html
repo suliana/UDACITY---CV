@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Resume</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet">
+<script src="components/jQuery.min.js"></script>
+<script src="js/helper.min.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,300,100">
+<style>
+</style>
+</head>
+
+<body>
+    <header class="header intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="" class="entypo-twitter social-link"></a>
+                            </li>
+                            <li>
+                                <a href="" class="entypo-facebook social-link"></a>
+                            </li>
+                            <li>
+                                <a href="" class="entypo-gplus social-link"></a>
+                            </li>
+                            <li>
+                                <a href="" class="entypo-instagrem social-link"></a>
+                            </li>
+                            <li>
+                                <a href="" class="entypo-linkedin social-link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row mainCol ">
+                    <div class="col-md-3 col-sm-12 col-xs-12 leftColTop">
+                        <div id="personalpic">
+                        </div>
+                        <section id="myContacts" class="col-md-6 col-sm-3 col-xs-12">
+                            <h3 class="sideTitle"><span class="entypo-publish"></span>Contact</h3>
+                            <ul id="topContacts" class="flex-box"></ul>
+                        </section>
+                        <section id="myskills" class="col-md-6 col-sm-3 col-xs-12">
+                            <h3 id="skills-h3" class="sideTitle"><span class="entypo-tools"></span>Skills</h3>
+                            <ul id="toskills" class="flex-box"></ul>
+                        </section>
+                        <section id="sideSocial" class="col-md-6 col-sm-3 col-xs-12">
+                            <h3 class="sideTitle"><span class="entypo-link"></span>Links</h3>
+                            <ul class="inline-block">
+                                <li><a href=""><span class="entypo-github"></span>GitHub</a></li>
+                                <li><a href=""><span class="entypo-gplus"></span>Email</a></li>
+                                <li><a href=""><span class="entypo-linkedin"></span>Linkedin</a></li>
+                                <li><a href=""><span class="entypo-facebook"></span>Facebook</a></li>
+                                <li><a href=""><span class="entypo-instagrem"></span>Instagram</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                    <!-- end of 1 panel -->
+                    <div class="col-md-9 col-sm12 col-xs-12 ">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div id="header">
+                                    <!-- <ul  class="flex-box"></ul> -->
+                                </div>
+                            </div>
+                            <div class="clearfix  visible-sm"></div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <section id="workExperience">
+                                    <h2><span class="entypo-briefcase"></span>Work Experience</h2>
+                                </section>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <section id="projects">
+                                    <h2><span class="entypo-folder "></span>Projects</h2>
+                                </section>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="row waypoint">
+                            <section id="education" class="col-mg-6 col-sm-6 dipper">
+                                <h2><span class="entypo-graduation-cap"></span>Education</h2>
+                            </section>
+                            <section id="online" class="col-mg-6 col-sm-6 dipper">
+                                <h2><span class="entypo-monitor"></span>Online Classes</h2>
+                            </section>
+                        </div>
+                        <div id="mapDiv">
+                            <h2><span class="entypo-location"></span>WhereI've Lived and Worked</h2>
+                        </div>
+                    </div>
+                    <!-- end of 2 panel -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="contactMe" class="text-center">
+        <h2>Get In Touch!</h2>
+        <address class="social">
+            <ul>
+                <li>
+                    <a href="" class="entypo-twitter"></a>
+                </li>
+                <li>
+                    <a href="" class="entypo-facebook"></a>
+                </li>
+                <li>
+                    <a href="" class="entypo-gplus"></a>
+                </li>
+                <li>
+                    <a href="" class="entypo-instagrem"></a>
+                </li>
+                <li>
+                    <a href="" class="entypo-linkedin"></a>
+                </li>
+            </ul>
+        </address>
+        <address class="personal-contact">
+            <a href="mailto:suliana@gmail.com">
+                <span class="entypo-mail"></span>
+                <span class="direct-line">suliana@gmail.com</span>
+            </a>
+        </address>
+        <div class="license">
+            Copyright @ 2016 Suliana Abbay.
+        </div>
+    </footer>
+    <script src="js/resumeBuilder.min.js"></script>
+    <script type="text/javascript">
+    if (document.getElementsByClassName('flex-item').length === 0) {
+        document.getElementById('topContacts').style.display = 'none';
+    }
+    if (document.getElementsByTagName('h1').length === 0) {
+        document.getElementById('header').style.display = 'none';
+    }
+    if (document.getElementsByClassName('work-entry').length === 0) {
+        document.getElementById('workExperience').style.display = 'none';
+    }
+    if (document.getElementsByClassName('project-entry').length === 0) {
+        document.getElementById('projects').style.display = 'none';
+    }
+    if (document.getElementsByClassName('education-entry').length === 0) {
+        document.getElementById('education').style.display = 'none';
+    }
+    if (document.getElementsByClassName('flex-item').length === 0) {
+        document.getElementById('lets-connect').style.display = 'none';
+    }
+    if (document.getElementById('map') === null) {
+        document.getElementById('mapDiv').style.display = 'none';
+    }
+    </script>
+    <script src="components/jquery.waypoints.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+</body>
+
+</html>
